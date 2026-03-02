@@ -1,0 +1,16 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "DataScienceModule"
+version = "0.1.0"
+description = "A library for calculating the potential of spherical mass distributions"
+readme = "README.md"
+requires-python = ">=3.9"
+license = { file = "LICENSE" }
+authors = [{ name = "LenaEinramhof_RaffaelJonas" }]
+dependencies = ["numpy"]
+
+[tool.setuptools.packages.find]
+where = ["src"]
