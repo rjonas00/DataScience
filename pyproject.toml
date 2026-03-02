@@ -12,5 +12,9 @@ license = { file = "LICENSE" }
 authors = [{ name = "LenaEinramhof_RaffaelJonas" }]
 dependencies = ["numpy"]
 
+[project.optional-dependencies]
+dev = ["nbstripout"]
+
+
 [tool.setuptools.packages.find]
 where = ["src"]
